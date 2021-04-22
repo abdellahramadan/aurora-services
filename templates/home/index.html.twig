@@ -12,16 +12,16 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="hero-content">
-                            <span class="span">Digital Studio</span>
-                            <h1>Creative 
+                            <span class="span">AURORA WEB SERVICES</span>
+                            <h1>Aurora 
                                 Digital 
                                 Agency</h1>
-                            <a href="portfolio-1.html" class="main-btn">Learn More</a>
+                            <a href=" {{ path('app_about') }} " class="main-btn">Learn More</a>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="hero-img">
-                            <img src="assets/images/hero/header-1.jpg" alt="">
+                            <img src="{{ asset('/images/hero/hero-1.jpg') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -32,16 +32,16 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="hero-content">
-                            <span class="span">Digital Studio</span>
-                            <h1>Creative 
-                                Digital 
-                                Agency</h1>
-                            <a href="portfolio-1.html" class="main-btn">Learn More</a>
+                            <span class="span">AURORA WEB SERVICES</span>
+                            <h1>Making 
+                                You 
+                                Visible</h1>
+                            <a href=" {{ path('app_about') }} " class="main-btn">Learn More</a>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="hero-img">
-                            <img src="assets/images/hero/header-1.jpg" alt="">
+                            <img src="/images/hero/hero-1.jpg" alt="">
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="features-item text-center mb-40">
                     <div class="icon">
-                        <i class="far fa-layer-group"></i>
+                        <i class="fa fa-layer-group"></i>
                     </div>
                     <div class="content">
                         <h4>Graphics Design</h4>
@@ -71,7 +71,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="features-item text-center mb-40">
                     <div class="icon">
-                        <i class="fal fa-laptop-code"></i>
+                        <i class="fa fa-laptop-code"></i>
                     </div>
                     <div class="content">
                         <h4>Web Development</h4>
@@ -84,7 +84,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="features-item text-center mb-40">
                     <div class="icon">
-                        <i class="fal fa-shapes"></i>
+                        <i class="fa fa-shapes"></i>
                     </div>
                     <div class="content">
                         <h4>Product Design</h4>
@@ -97,7 +97,7 @@
             <div class="col-lg-3 col-md-6 col-sm-12">
                 <div class="features-item text-center mb-40">
                     <div class="icon">
-                        <i class="fal fa-bullhorn"></i>
+                        <i class="fa fa-bullhorn"></i>
                     </div>
                     <div class="content">
                         <h4>Marketing Strategy</h4>
@@ -114,7 +114,7 @@
 
 <!--====== Start Features Section ======-->
 <section class="features-area-v2 light-bg pt-120 pb-130">
-    <div class="features-bg bg_cover" style="background-image: url(assets/images/bg/features-bg-1.jpg);"></div>
+    <div class="features-bg bg_cover" style="background-image: url({{asset('images/bg/features-bg-1.jpg') }});"></div>
     <div class="container">
         <div class="row">
             <div class="offset-lg-6 col-lg-6">
@@ -131,7 +131,7 @@
                         <li>Announcing Smashing Online Workshops</li>
                         <li>How Should Designers Learn To Code Terminal</li>
                     </ul>
-                    <a href="about.html" class="main-btn">Learn More</a>
+                    <a href=" {{ path('app_about') }} " class="main-btn">Learn More</a>
                 </div>
             </div>
         </div>
@@ -145,7 +145,7 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div class="skill-img mb-40">
-                    <img src="assets/images/skill/skill-1.jpg" alt="">
+                    <img src="{{ asset('/images/skill/skill-1.jpg') }}" alt="">
                 </div>
             </div>
             <div class="col-lg-6">

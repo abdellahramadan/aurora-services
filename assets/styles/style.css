@@ -247,7 +247,7 @@ textarea.form_control {
 }
 .main-btn:after {
   display: inline-block;
-  content: "";
+  content: "\279E";
   font-family: "Font Awesome 5 Pro";
   padding-left: 10px;
 }
@@ -483,7 +483,7 @@ header {
   }
 }
 .header-navigation .main-menu ul > li.menu-item-has-children > a:after {
-  content: "";
+  content: "\25BE";
   font-family: "Font Awesome 5 Pro";
   font-weight: 400;
   float: right;
@@ -1513,7 +1513,7 @@ header {
   left: 0;
   width: 40px;
   height: 40px;
-  content: "";
+  content: "\2714";
   font-weight: 400;
   font-family: "Font Awesome 5 Pro";
   border: 2px solid #e0e0e0;

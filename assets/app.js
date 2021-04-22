@@ -12,6 +12,7 @@ import './styles/magnific-popup.css';
 import './styles/nice-select.css';
 import './styles/slick.css';
 import './styles/style.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 //const $ = require('jquery'); global.$ = global.jQuery = $;
 import "bootstrap";
