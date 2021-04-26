@@ -18,10 +18,10 @@
                         </div>
                         <nav class="main-menu">
                             <ul>
-                                <li class="menu-item menu-item-has-children"><a href=" {{ path('app_home') }} ">Home</a>
+                                <li class="menu-item "><a href=" {{ path('app_home') }} ">Home</a>
                                     
                                 </li>
-                                <li class="menu-item"><a href="about.html">About</a></li>
+                                
                                 <li class="menu-item menu-item-has-children"><a href="#">Service</a>
                                     <ul class="sub-menu">
                                         <li><a href="service-1.html">Service One</a></li>
@@ -29,28 +29,8 @@
                                         <li><a href="service-details.html">Service Details</a></li>
                                     </ul>
                                 </li>
-                                <li class="menu-item menu-item-has-children"><a href="#">Portfolio</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="portfolio-1.html">Portfolio One</a></li>
-                                        <li><a href="portfolio-2.html">Portfolio Two</a></li>
-                                        <li><a href="portfolio-3.html">Portfolio Three</a></li>
-                                        <li><a href="single-portfolio.html">Single Portfolio</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-has-children"><a href="#">Pages</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="about.html">About Us</a></li>
-                                        <li><a href="team.html">Our Team</a></li>
-                                        <li><a href="faq.html">Faq</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-has-children"><a href="#">Blog</a>
-                                    <ul class="sub-menu">
-                                        <li><a href="blog-standard.html">Blog Standard</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item"><a href="contact.html">Contact</a></li>
+                                <li class="menu-item"><a href="{{ path('app_about') }}">About</a></li>
+                                <li class="menu-item"><a href="{{ path('app_contact') }}">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
